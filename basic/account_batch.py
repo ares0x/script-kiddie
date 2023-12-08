@@ -21,7 +21,6 @@ def createAccounts(quantity):
         wallets.append(wallet.values())
 
     print(wallets)
-    # return wallets
     
 def bytes_to_hex(bs):
     return ''.join(['%02X' % b for b in bs])
