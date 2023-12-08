@@ -3,7 +3,7 @@ from eth_account import Account
 # 批量生成账户
 def createAccounts(quantity):
     Account.enable_unaudited_hdwallet_features()
-    result = Account.create_with_mnemonic(passphrase = 'fucksec')
+    result = Account.create_with_mnemonic(passphrase = 'ares0xff')
     mnemonic = result[1]
     wallets = []
     print(mnemonic)
@@ -24,6 +24,9 @@ def createAccounts(quantity):
     
 def bytes_to_hex(bs):
     return ''.join(['%02X' % b for b in bs])
+
+# 将批量生成的地址按照格式写入 CSV 中
+# def writeToCsv():
 
 
 def main():
