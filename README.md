@@ -13,3 +13,5 @@ script-kiddie 是为进入 web3 领域的新人准备的一系列课程，包括
 **注意：当你在使用或者学习该教程时，我希望你能准备一套新的账户，这样做的目的是防止你将自己存有资产的账户私钥提交到 github 上**
 
 ## Guide && Document
+
+[Web3 DApp 最佳编程实践指南](https://guoyu.mirror.xyz/RD-xkpoxasAU7x5MIJmiCX4gll3Cs0pAd5iM258S1Ek)
